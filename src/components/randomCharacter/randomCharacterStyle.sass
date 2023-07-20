@@ -1,0 +1,55 @@
+.randomCharacters
+  display: flex
+  justify-content: space-between
+  align-items:
+  max-height: 250px
+  margin-bottom: 50px
+  .left
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.25)
+    padding: 35px 35px 35px 40px
+    width: 50%
+    display: flex
+    justify-content: space-between
+    gap: 30px
+    .imgContainer
+      height: 180px
+      width: 180px
+      img
+        height: 100%
+        width: 180px
+        object-fit: cover
+    .leftText
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      .name
+        font-size: 22px
+        font-weight: 700
+        text-transform: uppercase
+        margin-bottom: 10px
+      .descriptions
+        font-weight: 400
+        font-size: 14px
+        margin-bottom: 13px
+      .buttonsContainer
+        display: flex
+        justify-content: flex-start
+        gap: 30px
+
+  .right
+    background: #232222
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.25)
+    width: 50%
+    padding: 35px 35px 35px 40px
+    position: relative
+    .title
+      color: #FFF
+      font-size: 24px
+      font-weight: 700
+      margin-bottom: 33px
+    .subtitle
+      margin-bottom: 13px
+    .imgContainer
+      position: absolute
+      right: -40px
+      bottom: 15px
